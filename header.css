@@ -1,0 +1,21 @@
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  width: 275px;
+  align-content: space-evenly;
+  border-radius: 15px;
+  padding: 10px;
+}
+nav {
+  font-size: 36px;
+  margin-top: 50px;
+}
+@media screen and (max-width: 650px) {
+  header {
+    width: 275px;
+    height: 600px;
+  }
+}
