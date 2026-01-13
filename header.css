@@ -12,4 +12,12 @@ header {
     font-size: 36px;
     margin-top: 50px;
   }
+  @media screen and (max-width: 900px), (min-width: 480px) {
+    header {
+      display: flex;
+      flex-direction: row;
+      width: 400px;
+      height: 250px;
+    }
+  }
 }

@@ -22,3 +22,10 @@ section {
   text-align: center;
   margin-top: 0;
 }
+@media screen {
+  min-width: 480px;
+  max-width: 900px;
+  header {
+    display: flex;
+  }
+}
