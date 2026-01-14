@@ -4,18 +4,18 @@ header {
   display: flex;
   flex-direction: column;
   height: 600px;
-  width: 275px;
+  width: 200px;
   align-content: space-evenly;
   border-radius: 15px;
   padding: 10px;
-  nav {
-    font-size: 36px;
-    margin-top: 50px;
-  }
-  @media screen and (max-width: 650px) {
-    header {
-      display: flex;
-      flex-direction: row;
-    }
+}
+nav {
+  font-size: 36px;
+  margin-top: 50px;
+}
+@media screen and (max-width: 650px) {
+  header {
+    width: 200px;
+    height: 300px;
   }
 }
