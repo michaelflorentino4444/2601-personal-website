@@ -1,0 +1,56 @@
+body {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 1fr 1fr;
+  background-color: lightgray;
+}
+img {
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px;
+  margin-top: -5px;
+}
+h2 {
+  margin-top: -10px;
+}
+a {
+  text-wrap: balance;
+}
+#anime {
+  border: solid blue;
+  margin-left: 10px;
+  padding: 5px;
+}
+#football {
+  border: solid red;
+  margin-left: 10px;
+  padding: 5px;
+}
+#basketball {
+  border: solid red;
+  padding: 5px;
+}
+#games {
+  border: solid blue;
+  padding: 5px;
+}
+@media screen and (max-width: 900px) {
+  main {
+    display: grid;
+    grid-template-columns: 300px;
+  }
+  img {
+    width: auto;
+    height: auto;
+  }
+  #games {
+    img {
+      width: 250px;
+    }
+  }
+}
